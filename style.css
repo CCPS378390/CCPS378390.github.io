@@ -5,15 +5,11 @@ html, body {
 
 header {
   z-index: 1;
-  position: fixed;
+  position: static;
   width: 25%;
   background-color: #333333;
 }
 
-nav {
-  margin: 0;
-  padding: 20px 0;
-}
 
 
 main {
@@ -31,15 +27,6 @@ main h1 {
   padding-top: 80px;
   margin-bottom: 80px;
   text-transform: uppercase;
-}
-
-
-
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
-  text-align: center;
 }
 
 .btn-main {
@@ -91,19 +78,5 @@ main h1 {
   line-height: 20px;
   padding: 0 20px;
   margin-bottom: 20px;
-}
-
-.supporting a {
-  background-color: white;
-  color: #333333;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  letter-spacing: 1.3px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 2px solid #333333; 
 }
 p{color: blue;}
